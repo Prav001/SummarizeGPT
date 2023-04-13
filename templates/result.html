@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+  <title>Summarize GPT</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='chatgpt-696x392.jpeg') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <!-- <img src="{{ url_for('static', filename='dog.png') }}" class="icon" /> -->
+  <h3>Here is the summary you requested</h3>
+  <p>{{ result }}</p>
+  <a href="/">Return to prompt form</a>
+</body>
